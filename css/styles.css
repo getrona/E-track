@@ -1,3 +1,36 @@
+#rubyrails, #cssdesign, #javaandroid, /*#ruby, #rails, */ #css, #design, #java, #android, #result {
+  display:none;
+}
+
+#survey {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+  font-style: oblique;
+}
 .questions {
   letter-spacing: noormal;
+}
+
+#ruby, #css, #java {
+  float: left;
+  width: 50%;
+}
+
+#rails, #design, #android {
+  float: right;
+  width: 50%;
+}
+
+img {
+  width:
+  border:;
+  padding:;
+  margin:
+}
+
+
+.info {
+  float: left;
 }

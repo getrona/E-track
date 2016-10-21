@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/bootsrap.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3-1-1.js"></script>
+  <script src="js/jquery-3.1.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Epicodus Track</title>
 </head>
@@ -21,7 +21,7 @@
           <label for="oop">I strongly prefer</label>
           <select class="form-control" id="oop">
             <option>Object Oriented Programming</option>
-            <option>Procedural programming</option>
+            <option>Procedural Programming</option>
           </select>
         </div>
 
@@ -65,8 +65,26 @@
         <button type="submit" class="btn">Submit!</button>
       </form>
     </div>
-    <div>
-      <img id=""src="img/" alt="">
+
+    <div class="trackpics">
+      <img id="ruby" src="img/ruby.png" alt="Ruby Logo">
+      <img id="rails" src="img/rails.png" alt="Rails Logo">
+      <img id="css" src="img/css.png" alt="CSS Logo">
+      <img id="design" src="img/design.jpg" alt="picture say Design">
+      <img id="java" src="img/java.png" alt="Java logo">
+      <img id="android" src="img/android.jpg" alt="android logo">
+    </div>
+
+    <div id="result">
+      <p>Dear, <span id="name"></span><br> Based on the answers that you have provided, we strongly encourage you to pursue the following track at Epicodus:</p>
+    </div>
+
+    <div class="info">
+      <p id="rubyrails">Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+
+      <p id="cssdesign">CSS is one of the core languages of the web and is an integral part of front-end development. CSS – along with HTML and JavaScript – helps front-end developers control what the end user of a website can see and do. In a world dominated by big brands and big ideas, the need for skilled designers is greater than ever. Whether you’re an aspiring freelancer, a design-savvy front-end developer, or a budding UI/UX designer, this course is a launching point for anyone interested in designing beautiful, memorable web experiences.</p>
+
+      <p id="javaandroid">Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
     </div>
   </div>
 </body>
