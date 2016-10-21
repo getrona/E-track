@@ -23,14 +23,6 @@
         </div>
 
         <div>
-          <label for="oop">I strongly prefer</label>
-          <select class="form-control" id="oop">
-            <option>Object Oriented Programming</option>
-            <option>Procedural Programming</option>
-          </select>
-        </div>
-
-        <div>
           <label for="frontback">I am very interested in:</label>
           <select class="form-control" id="frontback">
             <option>Front-end Development</option>
@@ -39,10 +31,19 @@
         </div>
 
         <div>
+          <label for="oop">I strongly prefer</label>
+          <select class="form-control" id="oop">
+            <option>Object Oriented Programming</option>
+            <option>Procedural Programming</option>
+          </select>
+        </div>
+
+
+        <div>
           <label for="job">I would like to work for:</label>
           <select class="form-control" id="job">
             <option>A Startup</option>
-            <option>A Mid-size level company<option>
+            <option>A Mid-size level company</option>
             <option>A large Enterprise</option>
           </select>
         </div>
@@ -71,13 +72,14 @@
       </form>
     </div>
 
-    <div id="result">
-      <p>Dear, <span id="name"></span><br> Based on the answers that you have provided, we strongly encourage you to pursue the following track at Epicodus:</p>
+    <div class="result">
+      <p>Dear <span id="blank"></span><br> Based on the answers that you have provided, we strongly encourage you to pursue the following track at Epicodus:</p>
     </div>
 
     <div class="trackpics">
       <img id="ruby" src="img/ruby.png" alt="Ruby Logo">
       <img id="rails" src="img/rails.png" alt="Rails Logo">
+      <img id="arrow" src="img/arrow.png" alt="two-sided arrow">
       <img id="css" src="img/css.png" alt="CSS Logo">
       <img id="design" src="img/design.jpg" alt="picture say Design">
       <img id="java" src="img/java.png" alt="Java logo">
@@ -85,7 +87,7 @@
     </div>
 
 
-
+    
     <div class="info">
       <p id="rubyrails">Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
 

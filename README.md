@@ -1,12 +1,12 @@
-# Website Portfolio
+# Track Suggestions
 
-#### This website has a link to all of the websites that I have created at Epicodus so far, 10/15/2016
+#### This website requires the visitor to take a survey in order to figure out which CS path the user should pursue, 10/15/2016.
 
 #### By **Getro Naissance**
 
 ## Description
 
-This website has three pages, but only the landing page currently contains any information. If you click on the picture, it will take you to the website of the respective project.
+After completing the survey, a hidden part of the website will appear with a few Suggestions as to which CS path the visitor should pursue while at Epicodus.
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ This website has three pages, but only the landing page currently contains any i
 
 ## Known Bugs
 
- Although there are no known bugs. The website looks better on smaller screens.
+ Although there are no known bugs. The website looks better on larger screens.
 
 ## Support and contact details
 
